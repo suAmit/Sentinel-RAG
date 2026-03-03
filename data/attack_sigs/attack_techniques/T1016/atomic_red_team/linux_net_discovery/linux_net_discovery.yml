@@ -1,0 +1,13 @@
+author: Teoderick Contreras
+id: 93252b82-8d73-11ec-bb43-acde48001122
+date: '2022-02-14'
+description: Generated datasets for linux net discovery in attack range.
+environment: attack_range
+directory: linux_net_discovery
+mitre_technique:
+- T1016
+datasets:
+- name: sysmon_linux
+  path: /datasets/attack_techniques/T1016/atomic_red_team/linux_net_discovery/sysmon_linux.log
+  sourcetype: sysmon:linux
+  source: Syslog:Linux-Sysmon/Operational

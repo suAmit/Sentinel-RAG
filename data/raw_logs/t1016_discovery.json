@@ -1,0 +1,27 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AKIAI44QH8DHBEXAMPLE",
+        "arn": "arn:aws:iam::123456789012:user/discovery-service-account",
+        "accountId": "123456789012",
+        "accessKeyId": "AKIAIOSFODNN7EXAMPLE",
+        "userName": "discovery-service-account"
+      },
+      "eventTime": "2024-03-20T15:45:00Z",
+      "eventSource": "ec2.amazonaws.com",
+      "eventName": "DescribeNetworkInterfaces",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "10.0.4.122",
+      "userAgent": "aws-cli/2.11.0 Python/3.11.8 Linux/6.1.0-arch1-1",
+      "requestParameters": {
+        "networkInterfaceIdSet": {}
+      },
+      "responseElements": null,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "123456789012"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+author: Raven Tait, Splunk
+id: 2481e83c-b888-4383-bc61-9d292f4e03ea
+date: '2025-08-05'
+description: Logs from usage of the Medusa rootkit on a Linux host.
+environment: custom
+directory: medusa_rootkit
+mitre_technique:
+- T1014
+datasets:
+- name: sysmon_linux
+  path: /datasets/attack_techniques/T1014/medusa_rootkit/sysmon_linux.log
+  sourcetype: sysmon:linux
+  source: Syslog:Linux-Sysmon/Operational

@@ -1,0 +1,18 @@
+# Data Processing
+polars
+
+# Vector Database & Embeddings
+qdrant-client
+fastembed
+
+# AI Providers
+google-genai
+requests
+
+# UI & Orchestration
+streamlit
+inngest
+fastapi
+uvicorn
+
+python-dotenv

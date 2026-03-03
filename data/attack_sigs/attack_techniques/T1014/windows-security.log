@@ -1,0 +1,1386 @@
+04/04/2022 05:37:04 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118997
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  npf
+Service File Name:  C:/Program Files\SplunkUniversalForwarder\etc\apps\Splunk_TA_stream\windows_x86_64\bin\npf.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+04/01/2022 02:00:25 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118782
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  npf
+Service File Name:  C:/Program Files\SplunkUniversalForwarder\etc\apps\Splunk_TA_stream\windows_x86_64\bin\npf.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/31/2022 09:10:37 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118550
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Visual Studio Standard Collector Service 150
+Service File Name:  "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\DiagnosticsHub.Collection.Service\StandardCollector.Service.exe"
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/31/2022 09:08:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118542
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SQL Server VSS Writer
+Service File Name:  "C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe"
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/31/2022 09:04:37 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118428
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Microsoft Edge Update Service (edgeupdatem)
+Service File Name:  "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /medsvc
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/31/2022 09:04:37 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118427
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Microsoft Edge Update Service (edgeupdate)
+Service File Name:  "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /svc
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/31/2022 07:51:51 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118418
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  CAPCOM
+Service File Name:  C:\Drivers\driver.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/30/2022 06:34:57 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118357
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Atomic22 Red Team Driver
+Service File Name:  C:\Windows\System32\drivers\combroker.sys
+Service Type:  kernel mode driver
+Service Start Type:  auto start
+Service Account:
+03/30/2022 06:33:35 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118354
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Atomic2 Red Team Driver
+Service File Name:  C:\Windows\System32\drivers\combroker.sys
+Service Type:  kernel mode driver
+Service Start Type:  auto start
+Service Account:
+03/30/2022 06:31:00 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118349
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Atomic Red Team Driver
+Service File Name:  C:\Windows\System32\drivers\combroker.sys
+Service Type:  kernel mode driver
+Service Start Type:  auto start
+Service Account:
+03/30/2022 06:27:22 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118346
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  capcom2 Driver
+Service File Name:  C:\Windows\System32\drivers\capcom.sys
+Service Type:  kernel mode driver
+Service Start Type:  auto start
+Service Account:
+03/30/2022 06:26:40 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118344
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  capcom Driver
+Service File Name:  C:\Windows\System32\drivers\capcom.sys
+Service Type:  kernel mode driver
+Service Start Type:  auto start
+Service Account:
+03/30/2022 06:12:25 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118342
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  CapcomRK
+Service File Name:  C:\Users\Administrator\Downloads\Capcom-Rootkit-master\Capcom-Rootkit-master\Exploit\..\Driver\Capcom.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/30/2022 04:32:25 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118292
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  npf
+Service File Name:  C:/Program Files\SplunkUniversalForwarder\etc\apps\Splunk_TA_stream\windows_x86_64\bin\npf.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/30/2022 04:27:09 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118123
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SysmonDrv
+Service File Name:  C:\Windows\SysmonDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  boot start
+Service Account:
+03/30/2022 04:27:09 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=118122
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Sysmon64
+Service File Name:  C:\Windows\Sysmon64.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:46:32 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-host-mhaag-attack-range-128
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117908
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  npf
+Service File Name:  C:/Program Files\SplunkUniversalForwarder\etc\apps\Splunk_TA_stream\windows_x86_64\bin\npf.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:43:48 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-host-mhaag-attack-range-128
+User=NOT_TRANSLATED
+Sid=S-1-5-21-690657828-951262220-597572118-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117745
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SysmonDrv
+Service File Name:  C:\Windows\SysmonDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  boot start
+Service Account:
+03/29/2022 05:43:48 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-host-mhaag-attack-range-128
+User=NOT_TRANSLATED
+Sid=S-1-5-21-690657828-951262220-597572118-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117744
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  sysmon64
+Service File Name:  C:\Windows\sysmon64.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:43:18 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-host-mhaag-attack-range-128
+User=NOT_TRANSLATED
+Sid=S-1-5-21-690657828-951262220-597572118-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117740
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Aurora Agent
+Service File Name:  "C:\Program Files\Aurora-Agent\aurora-agent.exe" --service --config "C:\Program Files\Aurora-Agent\agent-config.yml"
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:42:11 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-host-mhaag-attack-range-128
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117733
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SplunkForwarder Service
+Service File Name:  "C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe" service
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:42:08 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-host-mhaag-attack-range-128
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117732
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SplunkMonitorNoHandle
+Service File Name:  system32\DRIVERS\SplunkMonitorNoHandleDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:42:08 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-host-mhaag-attack-range-128
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117731
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  splknetdrv
+Service File Name:  \SystemRoot\system32\DRIVERS\splknetdrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:42:08 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-host-mhaag-attack-range-128
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117730
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Splunk Trace Kernel Mode Driver
+Service File Name:  \SystemRoot\system32\DRIVERS\splunkdrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:40:27 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-host-mhaag-attack-range-128
+User=NOT_TRANSLATED
+Sid=S-1-5-21-690657828-951262220-597572118-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117477
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Mozilla Maintenance Service
+Service File Name:  "C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice.exe"
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/29/2022 05:38:17 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117961
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  npf
+Service File Name:  C:/Program Files\SplunkUniversalForwarder\etc\apps\Splunk_TA_stream\windows_x86_64\bin\npf.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:35:40 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117774
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SysmonDrv
+Service File Name:  C:\Windows\SysmonDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  boot start
+Service Account:
+03/29/2022 05:35:40 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117773
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  sysmon64
+Service File Name:  C:\Windows\sysmon64.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:35:40 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117774
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SysmonDrv
+Service File Name:  C:\Windows\SysmonDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  boot start
+Service Account:
+03/29/2022 05:35:40 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117773
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  sysmon64
+Service File Name:  C:\Windows\sysmon64.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:35:07 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117754
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Aurora Agent
+Service File Name:  "C:\Program Files\Aurora-Agent\aurora-agent.exe" --service --config "C:\Program Files\Aurora-Agent\agent-config.yml"
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:35:07 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117754
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Aurora Agent
+Service File Name:  "C:\Program Files\Aurora-Agent\aurora-agent.exe" --service --config "C:\Program Files\Aurora-Agent\agent-config.yml"
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:34:01 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117748
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SplunkForwarder Service
+Service File Name:  "C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe" service
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:34:01 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117748
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SplunkForwarder Service
+Service File Name:  "C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe" service
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:33:59 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117739
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SplunkMonitorNoHandle
+Service File Name:  system32\DRIVERS\SplunkMonitorNoHandleDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:33:59 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117738
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  splknetdrv
+Service File Name:  \SystemRoot\system32\DRIVERS\splknetdrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:33:59 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117739
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  SplunkMonitorNoHandle
+Service File Name:  system32\DRIVERS\SplunkMonitorNoHandleDrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:33:59 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117738
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  splknetdrv
+Service File Name:  \SystemRoot\system32\DRIVERS\splknetdrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:33:58 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117737
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Splunk Trace Kernel Mode Driver
+Service File Name:  \SystemRoot\system32\DRIVERS\splunkdrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:33:58 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702.attackrange.local
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117737
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Splunk Trace Kernel Mode Driver
+Service File Name:  \SystemRoot\system32\DRIVERS\splunkdrv.sys
+Service Type:  kernel mode driver
+Service Start Type:  demand start
+Service Account:
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117526
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Microsoft Key Distribution Service
+Service File Name:  %SystemRoot%\system32\lsass.exe
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117525
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Active Directory Web Services
+Service File Name:  %systemroot%\ADWS\Microsoft.ActiveDirectory.WebServices.exe
+Service Type:  user mode service
+Service Start Type:  disabled
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117524
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DFS Namespace Server Filter Driver
+Service File Name:  system32\drivers\dfs.sys
+Service Type:  kernel mode driver
+Service Start Type:  system start
+Service Account:
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117523
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  File Replication
+Service File Name:  %SystemRoot%\system32\ntfrs.exe
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117522
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DS Role Server
+Service File Name:  %SystemRoot%\System32\lsass.exe
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117521
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DFS Replication ReadOnly Driver
+Service File Name:  system32\drivers\dfsrro.sys
+Service Type:  kernel mode driver
+Service Start Type:  boot start
+Service Account:
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117520
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DFS Namespace
+Service File Name:  %SystemRoot%\system32\dfssvc.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117519
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DFS Replication
+Service File Name:  %SystemRoot%\system32\DFSRs.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117518
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Active Directory Domain Services
+Service File Name:  %SystemRoot%\System32\lsass.exe
+Service Type:  user mode service
+Service Start Type:  disabled
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117526
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Microsoft Key Distribution Service
+Service File Name:  %SystemRoot%\system32\lsass.exe
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117525
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Active Directory Web Services
+Service File Name:  %systemroot%\ADWS\Microsoft.ActiveDirectory.WebServices.exe
+Service Type:  user mode service
+Service Start Type:  disabled
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117524
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DFS Namespace Server Filter Driver
+Service File Name:  system32\drivers\dfs.sys
+Service Type:  kernel mode driver
+Service Start Type:  system start
+Service Account:
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117523
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  File Replication
+Service File Name:  %SystemRoot%\system32\ntfrs.exe
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117522
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DS Role Server
+Service File Name:  %SystemRoot%\System32\lsass.exe
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117521
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DFS Replication ReadOnly Driver
+Service File Name:  system32\drivers\dfsrro.sys
+Service Type:  kernel mode driver
+Service Start Type:  boot start
+Service Account:
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117520
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DFS Namespace
+Service File Name:  %SystemRoot%\system32\dfssvc.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117519
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DFS Replication
+Service File Name:  %SystemRoot%\system32\DFSRs.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:31:49 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117518
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Active Directory Domain Services
+Service File Name:  %SystemRoot%\System32\lsass.exe
+Service Type:  user mode service
+Service Start Type:  disabled
+Service Account:  LocalSystem
+03/29/2022 05:31:48 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117517
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Kerberos Key Distribution Center
+Service File Name:  %SystemRoot%\System32\lsass.exe
+Service Type:  user mode service
+Service Start Type:  disabled
+Service Account:  LocalSystem
+03/29/2022 05:31:48 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117516
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Intersite Messaging
+Service File Name:  %SystemRoot%\System32\ismserv.exe
+Service Type:  user mode service
+Service Start Type:  disabled
+Service Account:  LocalSystem
+03/29/2022 05:31:48 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117517
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Kerberos Key Distribution Center
+Service File Name:  %SystemRoot%\System32\lsass.exe
+Service Type:  user mode service
+Service Start Type:  disabled
+Service Account:  LocalSystem
+03/29/2022 05:31:48 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117516
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Intersite Messaging
+Service File Name:  %SystemRoot%\System32\ismserv.exe
+Service Type:  user mode service
+Service Start Type:  disabled
+Service Account:  LocalSystem
+03/29/2022 05:31:05 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117490
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DNS Server
+Service File Name:  %systemroot%\system32\dns.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:31:05 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-18
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117490
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  DNS Server
+Service File Name:  %systemroot%\system32\dns.exe
+Service Type:  user mode service
+Service Start Type:  auto start
+Service Account:  LocalSystem
+03/29/2022 05:30:09 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117488
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Mozilla Maintenance Service
+Service File Name:  "C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice.exe"
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem
+03/29/2022 05:30:09 PM
+LogName=System
+SourceName=Microsoft-Windows-Service Control Manager
+EventCode=7045
+EventType=4
+Type=Information
+ComputerName=win-dc-mhaag-attack-range-702
+User=NOT_TRANSLATED
+Sid=S-1-5-21-2164285820-2310154215-3626920569-500
+SidType=0
+TaskCategory=None
+OpCode=The operation completed successfully.
+RecordNumber=117488
+Keywords=Classic
+Message=A service was installed in the system.
+
+Service Name:  Mozilla Maintenance Service
+Service File Name:  "C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice.exe"
+Service Type:  user mode service
+Service Start Type:  demand start
+Service Account:  LocalSystem

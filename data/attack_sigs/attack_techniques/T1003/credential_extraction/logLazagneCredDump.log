@@ -1,0 +1,1069 @@
+09/12/2020 01:26:13 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4663
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Kernel Object
+OpCode=Info
+RecordNumber=989203092
+Keywords=Audit Success
+Message=An attempt was made to access an object.
+ 
+Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Object:
+    Object Server:      Security
+    Object Type:        Process
+    Object Name:        \Device\HarddiskVolume1\Windows\System32\lsass.exe
+    Handle ID:      0x450
+    Resource Attributes:    -
+ 
+Process Information:
+    Process ID:     0x1598
+    Process Name:       C:\Users\Administrator\Downloads\lazagne.exe
+ 
+Access Request Information:
+    Accesses:       Read from process memory
+                 
+    Access Mask:        0x10
+ 
+ 
+ 
+ 
+09/12/2020 01:26:11 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4663
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Kernel Object
+OpCode=Info
+RecordNumber=989203091
+Keywords=Audit Success
+Message=An attempt was made to access an object.
+ 
+Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Object:
+    Object Server:      Security
+    Object Type:        Process
+    Object Name:        \Device\HarddiskVolume1\Windows\System32\lsass.exe
+    Handle ID:      0x374
+    Resource Attributes:    -
+ 
+Process Information:
+    Process ID:     0x1598
+    Process Name:       C:\Users\Administrator\Downloads\lazagne.exe
+ 
+Access Request Information:
+    Accesses:       Read from process memory
+                 
+    Access Mask:        0x10
+ 
+ 
+ 
+ 
+09/12/2020 01:26:10 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4663
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Kernel Object
+OpCode=Info
+RecordNumber=989203092
+Keywords=Audit Success
+Message=An attempt was made to access an object.
+ 
+Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Object:
+    Object Server:      Security
+    Object Type:        Process
+    Object Name:        \Device\HarddiskVolume1\Windows\System32\lsass.exe
+    Handle ID:      0x444
+    Resource Attributes:    -
+ 
+Process Information:
+    Process ID:     0x1598
+    Process Name:       C:\Users\Administrator\Downloads\lazagne.exe
+ 
+Access Request Information:
+    Accesses:       Read from process memory
+                 
+    Access Mask:        0x10
+ 
+ 
+ 
+09/12/2020 01:26:07 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4634
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Logoff
+OpCode=Info
+RecordNumber=989203090
+Keywords=Audit Success
+Message=An account was logged off.
+ 
+Subject:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x876C5D
+ 
+Logon Type:         3
+ 
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+ 
+ 
+ 
+ 
+09/12/2020 01:26:07 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4624
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Logon
+OpCode=Info
+RecordNumber=989203089
+Keywords=Audit Success
+Message=An account was successfully logged on.
+ 
+Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Logon Information:
+    Logon Type:     3
+    Restricted Admin Mode:  -
+    Virtual Account:        No
+    Elevated Token:     Yes
+ 
+Impersonation Level:        Impersonation
+ 
+New Logon:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE.LOCAL
+    Logon ID:       0x876C5D
+    Linked Logon ID:        0x0
+    Network Account Name:   -
+    Network Account Domain: -
+    Logon GUID:     {EA3B528A-1EAA-744E-3A2F-9F5AFFD6F507}
+ 
+Process Information:
+    Process ID:     0x0
+    Process Name:       -
+ 
+Network Information:
+    Workstation Name:   -
+    Source Network Address: ::1
+    Source Port:        59136
+ 
+Detailed Authentication Information:
+    Logon Process:      Kerberos
+    Authentication Package: Kerberos
+    Transited Services: -
+    Package Name (NTLM only):   -
+    Key Length:     0
+ 
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+ 
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+ 
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+ 
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+ 
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+ 
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+ 
+The authentication information fields provide detailed information about this specific logon request.
+    - Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+    - Transited services indicate which intermediate services have participated in this logon request.
+    - Package name indicates which sub-protocol was used among the NTLM protocols.
+    - Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:26:07 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4672
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Special Logon
+OpCode=Info
+RecordNumber=989203088
+Keywords=Audit Success
+Message=Special privileges assigned to new logon.
+ 
+Subject:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x876C5D
+ 
+Privileges:     SeSecurityPrivilege
+            SeBackupPrivilege
+            SeRestorePrivilege
+            SeTakeOwnershipPrivilege
+            SeDebugPrivilege
+            SeSystemEnvironmentPrivilege
+            SeLoadDriverPrivilege
+            SeImpersonatePrivilege
+            SeDelegateSessionUserImpersonatePrivilege
+            SeEnableDelegationPrivilege
+ 
+ 
+ 
+09/12/2020 01:25:59 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4634
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Logoff
+OpCode=Info
+RecordNumber=989203087
+Keywords=Audit Success
+Message=An account was logged off.
+Subject:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x86F32E
+ 
+Logon Type:         3
+ 
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+ 
+ 
+ 
+ 
+09/12/2020 01:25:51 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4634
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Logoff
+OpCode=Info
+RecordNumber=989203086
+Keywords=Audit Success
+Message=An account was logged off.
+ 
+Subject:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x87644D
+ 
+Logon Type:         3
+ 
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+ 
+ 
+ 
+ 
+09/12/2020 01:25:51 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4624
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Logon
+OpCode=Info
+RecordNumber=989203085
+Keywords=Audit Success
+Message=An account was successfully logged on.
+ 
+Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Logon Information:
+    Logon Type:     3
+    Restricted Admin Mode:  -
+    Virtual Account:        No
+    Elevated Token:     Yes
+ 
+Impersonation Level:        Impersonation
+ 
+New Logon:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE.LOCAL
+    Logon ID:       0x87644D
+    Linked Logon ID:        0x0
+    Network Account Name:   -
+    Network Account Domain: -
+    Logon GUID:     {EA3B528A-1EAA-744E-3A2F-9F5AFFD6F507}
+ 
+Process Information:
+    Process ID:     0x0
+    Process Name:       -
+ 
+Network Information:
+    Workstation Name:   -
+    Source Network Address: fe80::2592:8f0a:c2ba:a476
+    Source Port:        59132
+ 
+Detailed Authentication Information:
+    Logon Process:      Kerberos
+    Authentication Package: Kerberos
+    Transited Services: -
+    Package Name (NTLM only):   -
+    Key Length:     0
+ 
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+ 
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+ 
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+ 
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+ 
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+ 
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+ 
+The authentication information fields provide detailed information about this specific logon request.
+    - Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+    - Transited services indicate which intermediate services have participated in this logon request.
+    - Package name indicates which sub-protocol was used among the NTLM protocols.
+    - Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+ 
+ 
+ 
+ 
+09/12/2020 01:25:51 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4672
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Special Logon
+OpCode=Info
+RecordNumber=989203088
+Keywords=Audit Success
+Message=Special privileges assigned to new logon.
+ 
+Subject:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x87644D
+ 
+Privileges:     SeSecurityPrivilege
+            SeBackupPrivilege
+            SeRestorePrivilege
+            SeTakeOwnershipPrivilege
+            SeDebugPrivilege
+            SeSystemEnvironmentPrivilege
+            SeLoadDriverPrivilege
+            SeImpersonatePrivilege
+            SeDelegateSessionUserImpersonatePrivilege
+            SeEnableDelegationPrivilege
+ 
+ 
+ 
+ 
+09/12/2020 01:25:51 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4634
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Logoff
+OpCode=Info
+RecordNumber=989203081
+Keywords=Audit Success
+Message=An account was logged off.
+ 
+Subject:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x8763E1
+ 
+Logon Type:         3
+ 
+This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.
+ 
+ 
+ 
+ 
+     
+09/12/2020 01:25:51 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4624
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Logon
+OpCode=Info
+RecordNumber=989203079
+Keywords=Audit Success
+Message=An account was successfully logged on.
+ 
+Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Logon Information:
+    Logon Type:     3
+    Restricted Admin Mode:  -
+    Virtual Account:        No
+    Elevated Token:     Yes
+ 
+Impersonation Level:        Impersonation
+ 
+New Logon:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE.LOCAL
+    Logon ID:       0x8763E1
+    Linked Logon ID:        0x0
+    Network Account Name:   -
+    Network Account Domain: -
+    Logon GUID:     {EA3B528A-1EAA-744E-3A2F-9F5AFFD6F507}
+ 
+Process Information:
+    Process ID:     0x0
+    Process Name:       -
+ 
+Network Information:
+    Workstation Name:   -
+    Source Network Address: fe80::2592:8f0a:c2ba:a476
+    Source Port:        59131
+ 
+Detailed Authentication Information:
+    Logon Process:      Kerberos
+    Authentication Package: Kerberos
+    Transited Services: -
+    Package Name (NTLM only):   -
+    Key Length:     0
+ 
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+ 
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+ 
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+ 
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+ 
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+ 
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+ 
+The authentication information fields provide detailed information about this specific logon request.
+    - Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+    - Transited services indicate which intermediate services have participated in this logon request.
+    - Package name indicates which sub-protocol was used among the NTLM protocols.
+    - Key length indicates the length of the generated session key. This will be 0 if no session key was requested.
+ 
+ 
+ 
+ 
+09/12/2020 01:25:51 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4672
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Special Logon
+OpCode=Info
+RecordNumber=989203078
+Keywords=Audit Success
+Message=Special privileges assigned to new logon.
+ 
+Subject:
+    Security ID:        SYSTEM
+    Account Name:       WIN-DC-1603297$
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x8763E1
+ 
+Privileges:     SeSecurityPrivilege
+            SeBackupPrivilege
+            SeRestorePrivilege
+            SeTakeOwnershipPrivilege
+            SeDebugPrivilege
+            SeSystemEnvironmentPrivilege
+            SeLoadDriverPrivilege
+            SeImpersonatePrivilege
+            SeDelegateSessionUserImpersonatePrivilege
+            SeEnableDelegationPrivilege
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203077
+Keywords=Audit Success
+Message=A process has exited.
+ 
+Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Process Information:
+    Process ID: 0x1a9c
+    Process Name:   C:\Windows\System32\cmd.exe
+    Exit Status:    0x0
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203076
+Keywords=Audit Success
+Message=A process has exited.
+ 
+Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Process Information:
+    Process ID: 0x17c0
+    Process Name:   C:\Windows\System32\reg.exe
+    Exit Status:    0x0
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203077
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0x17c0
+    New Process Name:   C:\Windows\System32\reg.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1a9c
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   reg.exe  save hklm\sam c:\users\admini~1\appdata\local\temp\2\wkgpcy
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203077
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0x1a9c
+    New Process Name:   C:\Windows\System32\cmd.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1598
+    Creator Process Name:   C:\Users\Administrator\Downloads\lazagne.exe
+    Process Command Line:   cmd.exe /c ""reg.exe save hklm\sam c:\users\admini~1\appdata\local\temp\2\wkgpcy""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203076
+Keywords=Audit Success
+Message=A process has exited.
+ 
+Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Process Information:
+    Process ID: 0x16b4
+    Process Name:   C:\Windows\System32\cmd.exe
+    Exit Status:    0x0
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203076
+Keywords=Audit Success
+Message=A process has exited.
+ 
+Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Process Information:
+    Process ID: 0x17b8
+    Process Name:   C:\Windows\System32\reg.exe
+    Exit Status:    0x0
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203077
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0x17b8
+    New Process Name:   C:\Windows\System32\reg.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x16b4
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   reg.exe  save hklm\system c:\users\admini~1\appdata\local\temp\2\bpjpfzfbt
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203077
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0x16b4
+    New Process Name:   C:\Windows\System32\cmd.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1598
+    Creator Process Name:   C:\Users\Administrator\Downloads\lazagne.exe
+    Process Command Line:   cmd.exe /c ""reg.exe save hklm\system c:\users\admini~1\appdata\local\temp\2\bpjpfzfbt""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203076
+Keywords=Audit Success
+Message=A process has exited.
+ 
+Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Process Information:
+    Process ID: 0x1b1c
+    Process Name:   C:\Windows\System32\cmd.exe
+    Exit Status:    0x0
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4689
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203076
+Keywords=Audit Success
+Message=A process has exited.
+ 
+Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Process Information:
+    Process ID: 0x1020
+    Process Name:   C:\Windows\System32\reg.exe
+    Exit Status:    0x0
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203077
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0x1020
+    New Process Name:   C:\Windows\System32\reg.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b1c
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   reg.exe  save hklm\security c:\users\admini~1\appdata\local\temp\2\lvvdtz
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203077
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0x1b1c
+    New Process Name:   C:\Windows\System32\cmd.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1598
+    Creator Process Name:   C:\Users\Administrator\Downloads\lazagne.exe
+    Process Command Line:   cmd.exe /c ""reg.exe save hklm\security c:\users\admini~1\appdata\local\temp\2\lvvdtz""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203077
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0x1598
+    New Process Name:   C:\Users\Administrator\Downloads\lazagne.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1ab8
+    Creator Process Name:   C:\Users\Administrator\Downloads\lazagne.exe
+    Process Command Line:   lazagne  all -oA -output lazDump.txt
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/12/2020 01:25:41 AM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Termination
+OpCode=Info
+RecordNumber=989203077
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0x1ab8
+    New Process Name:   C:\Users\Administrator\Downloads\lazagne.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0xf04
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   lazagne  all -oA -output lazDump.txt
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+

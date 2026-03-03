@@ -1,0 +1,13 @@
+author: Teoderick Contreras, Splunk
+id: 05399f54-1ab2-11f0-a1c6-629be3538069
+date: '2025-04-16'
+description: Generated datasets for linux auditd net tool new in attack range.
+environment: attack_range
+directory: linux_auditd_net_tool_new
+mitre_technique:
+- T1016
+datasets:
+- name: linux_auditd_net_tool_bucket_new
+  path: /datasets/attack_techniques/T1016/linux_auditd_net_tool_new/linux_auditd_net_tool_bucket_new.log
+  sourcetype: auditd
+  source: auditd

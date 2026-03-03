@@ -1,0 +1,22 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: soc_vector_db
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ./infra_data/qdrant:/qdrant/storage
+    restart: unless-stopped
+
+  inngest:
+    image: inngest/inngest:latest
+    container_name: soc_orchestrator
+    # We tell Inngest to find our Python app on the host at port 8000
+    command:
+      ["inngest", "dev", "-u", "http://host.docker.internal:8000/api/inngest"]
+    ports:
+      - "8288:8288"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped

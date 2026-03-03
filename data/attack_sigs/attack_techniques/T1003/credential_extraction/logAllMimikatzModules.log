@@ -1,0 +1,451 @@
+
+09/11/2020 11:45:25 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=7827463
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""privilege::debug""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/11/2020 11:45:21 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=7327463
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""crypto::capi crypto::cng crypto::certificates /export crypto::keys /export crypto::providers crypto::stores crypto::sc crypto::scauth""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+09/11/2020 11:45:19 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=7827463
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""kerberos::ptt kerberos::golden kerberos::silver  kerberos::list /export kerberos::tgt kerberos::purge""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/11/2020 11:45:17 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=7827563
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""lsadump::sam  lsadump::secrets lsadump::cache lsadump::lsa lsadump::trust lsadump::backupkeys  lsadump::rpdata  lsadump::dcsync  lsadump::netsync""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+09/11/2020 11:45:15 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=7827403
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""vault:: list   vault::cred""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+09/11/2020 11:45:14 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=7827402
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""token::whoami  token::list  token::elevate   token::revert""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+09/11/2020 11:45:13 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=7877402
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""event::drop event::clear""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/11/2020 11:45:12 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=7827462
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""process::list  process::start service::+ service::- service::list service::start service::stop service::suspend""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+ 
+09/11/2020 11:45:11 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=7897462
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""net::alias  net::user net::group net::ServerInfo net::share net::stats""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+ 
+ 
+ 
+ 
+09/11/2020 11:45:10 PM
+LogName=Security
+SourceName=Microsoft Windows security auditing.
+EventCode=4688
+EventType=0
+Type=Information
+ComputerName=win-dc-1603297.attackrange.local
+TaskCategory=Process Creation
+OpCode=Info
+RecordNumber=9897462
+Keywords=Audit Success
+Message=A new process has been created.
+ 
+Creator Subject:
+    Security ID:        ATTACKRANGE\administrator
+    Account Name:       administrator
+    Account Domain:     ATTACKRANGE
+    Logon ID:       0x2097C8
+ 
+Target Subject:
+    Security ID:        NULL SID
+    Account Name:       -
+    Account Domain:     -
+    Logon ID:       0x0
+ 
+Process Information:
+    New Process ID:     0xe2c
+    New Process Name:   C:\Users\Administrator\Downloads\mimikatz_trunk\x64\mimikatz.exe
+    Token Elevation Type:   %%1936
+    Mandatory Label:        Mandatory Label\High Mandatory Level
+    Creator Process ID: 0x1b94
+    Creator Process Name:   C:\Windows\System32\cmd.exe
+    Process Command Line:   mimikatz  ""misc::skeleton misc::memssp misc::regedit misc::taskmgr misc::ncroutemon misc::detours misc::wifi misc::addsid""
+ 
+Token Elevation Type indicates the type of token that was assigned to the new process in accordance with User Account Control policy.
+ 
+Type 1 is a full token with no privileges removed or groups disabled.  A full token is only used if User Account Control is disabled or if the user is the built-in Administrator account or a service account.
+ 
+Type 2 is an elevated token with no privileges removed or groups disabled.  An elevated token is used when User Account Control is enabled and the user chooses to start the program using Run as administrator.  An elevated token is also used when an application is configured to always require administrative privilege or to always require maximum privilege, and the user is a member of the Administrators group.
+ 
+Type 3 is a limited token with administrative privileges removed and administrative groups disabled.  The limited token is used when User Account Control is enabled, the application does not require administrative privilege, and the user does not choose to start the program using Run as administrator.
+
