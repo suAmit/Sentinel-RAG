@@ -6,8 +6,6 @@ Sentinel RAG is an enterprise-grade **Retrieval-Augmented Generation (RAG)** pla
 
 It transforms high-volume AWS and Windows security logs into structured, evidence-backed forensic intelligence — without AI hallucinations.
 
----
-
 ## 🎯 Why Sentinel?
 
 Tier 2 SOC analysts deal with:
@@ -22,13 +20,9 @@ Traditional AI guesses.
 
 If relevant logs are not found → the AI does not respond.
 
----
-
 # 🏗 Architecture Overview
 
 Sentinel uses a structured 4-layer RAG pipeline:
-
----
 
 ## 1️⃣ Ingestion Layer
 
@@ -36,8 +30,6 @@ Sentinel uses a structured 4-layer RAG pipeline:
 - Windows Event Logs
 - Attack simulation datasets
 - Background indexing workflow
-
----
 
 ## 2️⃣ Refinery Layer (Polars Engine)
 
@@ -49,8 +41,6 @@ High-speed log transformation and enrichment:
 - Suspicious API clustering
 - Baseline deviation detection
 
----
-
 ## 3️⃣ Memory Layer (Vector Intelligence)
 
 - Vector Database: Qdrant
@@ -59,8 +49,6 @@ High-speed log transformation and enrichment:
 - Similarity threshold enforcement
 
 If similarity score < `GROUNDING_THRESHOLD` → response blocked.
-
----
 
 ## 4️⃣ Agentic Analysis Layer
 
@@ -76,8 +64,6 @@ Each response:
 - Generates escalation-ready forensic reports
 - Displays investigation confidence score
 
----
-
 # ✨ Key Features
 
 - 🔒 Grounding Filter (anti-hallucination circuit breaker)
@@ -87,8 +73,6 @@ Each response:
 - 📁 Timeline Reconstruction
 - 📈 Confidence Scoring Model
 - 🔎 Threat Hunting Mode
-
----
 
 # 📂 Project Structure
 
@@ -120,8 +104,6 @@ Enterprise-RAG/
 └── README.md
 ```
 
----
-
 # ⚙️ Environment Configuration
 
 Create a `.env` file in the root directory:
@@ -129,8 +111,6 @@ Create a `.env` file in the root directory:
 ```bash
 touch .env
 ```
-
----
 
 ## 📄 `.env` Format
 
@@ -159,8 +139,6 @@ GROUNDING_THRESHOLD=0.50
 INNGEST_EVENT_KEY=your_inngest_event_key
 ```
 
----
-
 # 🚀 Quick Start
 
 ## 1️⃣ Start Vector Database
@@ -169,15 +147,11 @@ INNGEST_EVENT_KEY=your_inngest_event_key
 docker-compose up -d
 ```
 
----
-
 ## 2️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## 3️⃣ First-Time Indexing
 
@@ -190,8 +164,6 @@ This will:
 - Parse logs
 - Generate embeddings
 - Store vectors in Qdrant
-
----
 
 ## 4️⃣ Run the Stack
 
@@ -213,8 +185,6 @@ Open:
 http://localhost:8501
 ```
 
----
-
 # 🔎 Example Investigation Output
 
 ```
@@ -230,13 +200,9 @@ Assessment:
 Behavior consistent with credential misuse and cloud resource staging.
 ```
 
----
-
 # 📊 Data Sources & Why They Were Chosen
 
 Sentinel is trained and evaluated using realistic security datasets to simulate Tier 2 SOC investigations.
-
----
 
 ## 🔴 Attack Simulation Data
 
@@ -255,8 +221,6 @@ data/attack_sigs
 - Provides structured adversary behavior patterns
 - Used to train technique recognition logic
 
----
-
 ## ☁️ AWS Attack Scenario Data
 
 Source: Invictus Incident Response AWS Dataset
@@ -273,8 +237,6 @@ data/raw_logs
 - Realistic CloudTrail attack traces
 - Shows what actual AWS compromise behavior looks like
 - Used to simulate credential abuse & privilege escalation
-
----
 
 ## 🖥 Windows Baseline Behavior
 
