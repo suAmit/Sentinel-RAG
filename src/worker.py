@@ -5,8 +5,8 @@ import inngest.fast_api
 import polars as pl
 from fastapi import FastAPI
 
-from app.database import SOCDatabase
-from app.log_engine import Tier2Refinery
+from src.database import SOCDatabase
+from src.log_engine import Tier2Refinery
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("uvicorn")

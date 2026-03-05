@@ -68,7 +68,7 @@ Each response:
 
 - 🔒 Grounding Filter (anti-hallucination circuit breaker)
 - ⚡ Dual LLM Engine (Cloud / Local toggle)
-- 📊 Streamlit SOC Dashboard
+- 📊 Streamlit SOC App
 - 🧠 MITRE ATT&CK Mapping
 - 📁 Timeline Reconstruction
 - 📈 Confidence Scoring Model
@@ -79,7 +79,7 @@ Each response:
 ```
 Enterprise-RAG/
 │
-├── app/                          # Core application logic
+├── src/                          # Core application logic
 │   ├── ai_agents.py               # LLM orchestration & grounding filter
 │   ├── database.py                # Qdrant indexing & retrieval logic
 │   ├── log_engine.py              # Log processing & correlation (Polars)
@@ -93,8 +93,7 @@ Enterprise-RAG/
 ├── infra_data/                    # Vector database persistent storage
 │   └── qdrant/                    # Qdrant vector index files
 │
-├── ui/
-│   └── dashboard.py               # Streamlit SOC investigation dashboard
+├── app.py                         # SOC interface
 │
 ├── .env                           # Environment configuration (DO NOT COMMIT)
 ├── .gitignore
@@ -156,7 +155,7 @@ pip install -r requirements.txt
 ## 3️⃣ First-Time Indexing
 
 ```bash
-python -m app.database
+python -m src.database
 ```
 
 This will:
@@ -170,13 +169,13 @@ This will:
 **Terminal A – Worker**
 
 ```bash
-uvicorn app.worker:app --port 8000 --host 0.0.0.0
+python -m uvicorn src.worker:app --port 8000 --host 0.0.0.0
 ```
 
-**Terminal B – Dashboard**
+**Terminal B – App**
 
 ```bash
-streamlit run ui/dashboard.py
+python -m streamlit run app.py
 ```
 
 Open:

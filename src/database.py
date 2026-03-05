@@ -82,7 +82,7 @@ class SOCDatabase:
 
 
 if __name__ == "__main__":
-    from app.log_engine import Tier2Refinery
+    from src.log_engine import Tier2Refinery
 
     # 1. Run the Refinery
     refinery = Tier2Refinery(data_dir="data")

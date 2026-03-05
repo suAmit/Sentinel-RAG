@@ -4,7 +4,7 @@ import requests
 import streamlit as st
 from dotenv import load_dotenv
 
-from app.ai_agents import SOCAnalyst
+from src.ai_agents import SOCAnalyst
 
 load_dotenv()
 
@@ -143,43 +143,3 @@ if st.button("Run Investigation"):
             except Exception as e:
                 st.error(f"Traceback error: {e}")
                 st.info("Ensure Qdrant is running and data is indexed.")
-
-# if st.button("Run Investigation"):
-#     if mode_key == "cloud" and not gemini_key:
-#         st.error("Missing Gemini API Key!")
-#     else:
-#         with st.spinner("Searching logs and generating report..."):
-#             try:
-#                 analyst = SOCAnalyst(mode=mode_key, api_key=gemini_key)
-#
-#                 raw_context, score = analyst._get_context_with_score(
-#                     query, threshold=grounding_threshold
-#                 )
-#
-#                 report = analyst.investigate(query, threshold=grounding_threshold)
-#
-#                 col_report, col_stats = st.columns([3, 1])
-#
-#                 with col_report:
-#                     st.markdown("### 🤖 AI Forensic Report")
-#                     st.info(f"Using Threshold: {grounding_threshold}")
-#                     st.markdown(report)
-#
-#                 with col_stats:
-#                     st.markdown("### 📊 Metrics")
-#                     color = "normal" if score >= grounding_threshold else "inverse"
-#                     st.metric(
-#                         label="Match Confidence",
-#                         value=f"{score:.2%}",
-#                         delta=f"{score - grounding_threshold:+.2f} vs Threshold",
-#                         delta_color=color,
-#                     )
-#
-#                     st.markdown("### 📄 Source Logs")
-#                     if raw_context:
-#                         st.caption(f"```\n{raw_context}\n```")
-#                     else:
-#                         st.warning("No logs passed the threshold.")
-#             except Exception as e:
-#                 st.error(f"Traceback error: {e}")
-#                 st.info("Ensure Qdrant is running and data is indexed.")
