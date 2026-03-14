@@ -1,4 +1,4 @@
-# 🛡️ Sentinel RAG
+# Sentinel RAG
 
 ## Enterprise Tier 2 SOC Intelligence for Cloud Environments
 
@@ -6,7 +6,7 @@ Sentinel RAG is an enterprise-grade **Retrieval-Augmented Generation (RAG)** pla
 
 It transforms high-volume AWS and Windows security logs into structured, evidence-backed forensic intelligence — without AI hallucinations.
 
-## 🎯 Why Sentinel?
+## Why Sentinel?
 
 Tier 2 SOC analysts deal with:
 
@@ -20,18 +20,18 @@ Traditional AI guesses.
 
 If relevant logs are not found → the AI does not respond.
 
-# 🏗 Architecture Overview
+# Architecture Overview
 
 Sentinel uses a structured 4-layer RAG pipeline:
 
-## 1️⃣ Ingestion Layer
+## Ingestion Layer
 
 - CloudTrail logs
 - Windows Event Logs
 - Attack simulation datasets
 - Background indexing workflow
 
-## 2️⃣ Refinery Layer (Polars Engine)
+## Refinery Layer (Polars Engine)
 
 High-speed log transformation and enrichment:
 
@@ -41,7 +41,7 @@ High-speed log transformation and enrichment:
 - Suspicious API clustering
 - Baseline deviation detection
 
-## 3️⃣ Memory Layer (Vector Intelligence)
+## Memory Layer (Vector Intelligence)
 
 - Vector Database: Qdrant
 - Embeddings: `BAAI/bge-small-en-v1.5`
@@ -50,12 +50,12 @@ High-speed log transformation and enrichment:
 
 If similarity score < `GROUNDING_THRESHOLD` → response blocked.
 
-## 4️⃣ Agentic Analysis Layer
+## Agentic Analysis Layer
 
 Dual-engine AI support:
 
-- ☁️ Cloud LLM (Gemini)
-- 🏠 Local LLM (Llama via Ollama)
+- Cloud LLM (Gemini)
+- Local LLM (Llama via Ollama)
 
 Each response:
 
@@ -64,20 +64,20 @@ Each response:
 - Generates escalation-ready forensic reports
 - Displays investigation confidence score
 
-# ✨ Key Features
+# Key Features
 
-- 🔒 Grounding Filter (anti-hallucination circuit breaker)
-- ⚡ Dual LLM Engine (Cloud / Local toggle)
-- 📊 Streamlit SOC App
-- 🧠 MITRE ATT&CK Mapping
-- 📁 Timeline Reconstruction
-- 📈 Confidence Scoring Model
-- 🔎 Threat Hunting Mode
+- Grounding Filter (anti-hallucination circuit breaker)
+- Dual LLM Engine (Cloud / Local toggle)
+- Streamlit SOC App
+- MITRE ATT&CK Mapping
+- Timeline Reconstruction
+- Confidence Scoring Model
+- Threat Hunting Mode
 
-# 📂 Project Structure
+# Project Structure
 
 ```
-Enterprise-RAG/
+Sentinel-RAG/
 │
 ├── src/                          # Core application logic
 │   ├── ai_agents.py               # LLM orchestration & grounding filter
@@ -95,7 +95,7 @@ Enterprise-RAG/
 │
 ├── app.py                         # SOC interface
 │
-├── .env                           # Environment configuration (DO NOT COMMIT)
+├── .env
 ├── .gitignore
 ├── .python-version
 ├── docker-compose.yml             # Infrastructure configuration
@@ -103,7 +103,7 @@ Enterprise-RAG/
 └── README.md
 ```
 
-# ⚙️ Environment Configuration
+# Environment Configuration
 
 Create a `.env` file in the root directory:
 
@@ -111,7 +111,7 @@ Create a `.env` file in the root directory:
 touch .env
 ```
 
-## 📄 `.env` Format
+## `.env` Format
 
 ```env
 # ==============================
@@ -138,9 +138,9 @@ GROUNDING_THRESHOLD=0.50
 INNGEST_EVENT_KEY=your_inngest_event_key
 ```
 
-# 🚀 Quick Start
+# Quick Start
 
-## 1️⃣ Start Vector Database
+## Start Vector Database
 
 ```bash
 docker-compose up -d
@@ -184,7 +184,7 @@ Open:
 http://localhost:8501
 ```
 
-# 🔎 Example Investigation Output
+# Example Investigation Output
 
 ```
 Potential Technique: T1078 – Valid Accounts
@@ -199,11 +199,11 @@ Assessment:
 Behavior consistent with credential misuse and cloud resource staging.
 ```
 
-# 📊 Data Sources & Why They Were Chosen
+# Data Sources & Why They Were Chosen
 
 Sentinel is trained and evaluated using realistic security datasets to simulate Tier 2 SOC investigations.
 
-## 🔴 Attack Simulation Data
+## Attack Simulation Data
 
 Source: Splunk Attack Data Repository
 [https://github.com/splunk/attack_data/tree/master/datasets](https://github.com/splunk/attack_data/tree/master/datasets)
@@ -220,7 +220,7 @@ data/attack_sigs
 - Provides structured adversary behavior patterns
 - Used to train technique recognition logic
 
-## ☁️ AWS Attack Scenario Data
+## AWS Attack Scenario Data
 
 Source: Invictus Incident Response AWS Dataset
 [https://github.com/invictus-ir/aws_dataset](https://github.com/invictus-ir/aws_dataset)
@@ -237,7 +237,7 @@ data/raw_logs
 - Shows what actual AWS compromise behavior looks like
 - Used to simulate credential abuse & privilege escalation
 
-## 🖥 Windows Baseline Behavior
+## Windows Baseline Behavior
 
 Source: LogPAI LogHub Windows Logs
 [https://github.com/logpai/loghub/tree/master/Windows](https://github.com/logpai/loghub/tree/master/Windows)
